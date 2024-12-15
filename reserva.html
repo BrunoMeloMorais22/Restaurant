@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reserva.css">
+    <title>Formulário de reserva</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário de Reserva</h1>
+        <p>Preencha os campos abaixo para reservar sua mesa.</p>
+        <form>
+            <label for="name">Nome completo</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+
+            <label for="phone">Telefone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <label for="">Número de crianças</label>
+            <select name="crianca" id="crianca" required>
+                <option value="disabled select">Selecione o número de crianças</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5 ou +</option>
+            </select>
+
+            <button type="submit">Reservar</button>
+        </form>
+    </main>
+</body>
+</html>

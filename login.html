@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+
+    <title>Página de login</title>
+</head>
+<body>
+    <div id="form-wrapper">
+        <form>
+            <h2 id="primeiro">Bem-vindo de Volta</h2>
+            <h2>Faça login para continuar</h2>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email">
+            </div>
+            <br>
+            <div class="input-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+            </div>
+            <div class="extra-links">
+                <a href="esqueceuasenha.html">Esqueceu a senha?</a>
+                <a href="cadastrar-se.html">Registrar-se</a>
+            </div>
+            <button onclick="btnEntrar(event)" type="submit">Entrar</button>
+        </form>
+    </div>
+    <script src="/js/login.js"></script>
+</body>
+</html>
